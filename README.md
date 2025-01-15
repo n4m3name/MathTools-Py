@@ -1,0 +1,169 @@
+# MathTools-Py
+
+Library of math tools written in Python
+
+Code based on material of MATH248:Computer Assisted Mathematics at UVic
+
+#### Table of Contents
+
+- **MATH TOOLS**
+- **PART 1**
+  - Libraries
+  - Basics
+    - Help
+    - Change of Bases
+    - Plotting
+    - Lambda
+      - Map
+      - Filter
+      - Reduce
+    - Closure & List Functions
+  - Solving Equations
+    - Root Finding: Newton's Method
+    - Root Finding: Quadratic Formula
+    - Root Finding: Bisection Method
+    - Root Finding: fsolve, root_scalar
+  - Arrays/Matrices
+    - Matrix
+    - Matrix Operations
+    - Matrix Multiplication
+    - Example: SIR Model, Graph wrt Time
+  - Difference Equations
+    - Generic Difference Equation Solver
+    - Example: Logistic Equation, Periodicity & Graphing Attractors
+    - Higher-Order Difference Equations
+    - Fixed Points
+    - T-Periodic Orbits
+  - Numerical Differentiation
+    - Newton's Method
+    - Euler's Method (Initial Value Problems)
+    - Implicit (Backwards) Euler's Method
+    - Local Extrema
+    - Point of Inflection
+    - Example: Maximizing \( x_5 \) (\( f(f(f(f(f(x))))) \))
+    - Numdifftools
+  - Classes & Objects
+
+- **PART 2**
+  - Libraries
+  - Basics (More in Part 1)
+    - Plotting
+    - Matrix Rows, Columns
+  - Linear Algebra
+    - Solving Linear Systems
+    - Norm (Magnitude) of a Vector
+    - Example: Nonlinear Newton's Method for Solving Linear Systems
+    - Polynomials
+    - Vandermonde
+    - Example: Polynomial Interpolation 2
+    - Example: Polynomial Interpolation Function
+    - Example: Linear Least Square Fitting, Exponential Growth Rate
+    - Eigenvectors/Values
+    - Example: Find Eigenvectors, Values of Matrix
+    - Example: Principal Component Analysis, Height-Weight
+      - Primary Component
+      - Secondary Component
+      - Relate to Variance
+    - Matrix Transpose
+    - Matrix Products
+    - Example: Linear Regression Using Matrix Product
+    - Inverse Matrix
+    - Example: Solving Multiple Linear Systems with the Same Coefficient Matrix Using Inverse
+    - Change Coordinate Systems
+    - Example: Change Coordinate Systems
+    - Example 2: Change Coordinate System, Lab Oct. 12
+    - Example: Graph Shape in Coordinate System Under Regular Coordinates
+    - Diagonalization
+    - Example: Diagonalization, Double/Half Along Direction
+    - Spectral Radius
+  - Plotting
+    - The `plot` Function
+    - Adjusting Axis
+    - Animation
+    - Example: Animating SIR Curve as Beta Changes
+    - Example: Animating a Dot Circling a Curve
+  - Reading Data
+    - Opening a File
+    - Alternative: `with` Statement
+    - `split`
+    - `csv` Module - Reader
+    - Dictionaries
+    - `DictReader`
+    - Best Method: Pandas
+    - DataFrame Object
+    - Read Excel
+    - Read from Webpage
+    - Example: Markov Process/Transition Matrix
+    - Example: Plot with Primary Components, \( Z \) as Measure of Overweightness Relative to Population
+  - Random Numbers/Stochastic Processes
+    - Probability, Distributions & Random Variables
+    - `random` Function
+    - `seed` Function
+    - Example: Coin Flip (Bernoulli)
+    - `choice` Function
+    - `cumsum` Function
+    - Example: Random Walk
+    - Example: 2D Random Walk
+    - Example: 10 Particles Taking 2D Random Walk (Discrete Brownian Motion)
+    - Example: Raindrops in Lake
+    - `binomial` Random Variables
+    - Example: SIR Model with Binomials
+    - Example: 100 Paths Random Walk
+    - Example: Population of Bacteria
+    - `normal` Random Variables
+    - `diff` Function
+    - Example: Brownian Motion (Diffusion)
+    - Example: Graphing Density of Diffusing Particles (Brownian Motion) in Intervals
+    - Example: Brownian Motion Lab
+  - Symbolic Calculation
+    - `sympy` Symbols
+    - `sympy` Expressions
+    - Simplifying Expressions
+    - Solving Equations
+    - Solving Linear Systems
+    - Example: Solving Two Equations in Three Variables
+    - Solving Nonlinear Systems
+    - Substitution
+    - Numerical Evaluation: `subs` & `lambdify`
+    - Example: Solve for Radius \( r \) as Function of \( x \)
+    - Example: Equilibrium of SIR
+    - Piecewise Functions
+    - Limits
+    - Derivatives/Differentiation
+    - Implicit Differentiation
+    - Taylor Series: `.series()`, `.removeO()` & `.expand()`
+    - Integration
+    - Differential Equations
+    - Example: Equilibrium of Differential Equations
+    - Example: Critical Points in `sympy`
+    - Example: Moments, Critical Points, Inflection
+    - Example: Mass and Moments, Constant Density 1 (Full Example: Rolling Wheel, Nov. 9)
+      - Mass
+      - Moment of Inertia About the \( x \)-Axis
+    - Example: Rod with Radius Profile...
+
+- **PART 3**
+  - Libraries
+  - Numerical Integration (Quadrature)
+    - `scipy.integrate`
+    - Example: 4th Moment of Standard Normal Distribution
+    - Double Integrals
+    - Example: Center of Mass, 2D Object
+    - Triple Integrals
+    - Example: Center of Mass of 3D Volume
+    - Multiple Integrals in General: `nquad` (Best for Quadrature)
+    - Example: Rolling Shell vs Ball
+  - Optimization
+    - Linear Programming with `scipy.optimize`
+    - Example: Linear Programming 2
+    - Example: Linear Programming 3
+    - Nonlinear Unconstrained Optimization; `minimize(f, x0)`
+    - Example: Minimize
+    - Example: Minimize Distance from Point to Ellipse
+    - Example: Least Square, Exponential
+    - Example: Solving Exponential for Time
+    - Example: Parameter Estimation; Poisson Regression
+    - Example: Implied Constraints - ln(x)
+    - Linear, Nonlinear Constraints
+    - Example: Regression, Exponential Growth Scale
+    - Example: Least Square Regression Using Minimize
