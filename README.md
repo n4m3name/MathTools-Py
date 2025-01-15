@@ -2,6 +2,9 @@
 
 Library of math tools written in Python
 
+[Web Version](https://nameatblog.netlify.app/math/mathtools/)
+[.ipynb Version](https://github.com/n4m3name/MathTools-Py/blob/main/MATHTOOLS.ipynb)
+
 Code based on material of MATH248:Computer Assisted Mathematics at UVic
 
 #### Table of Contents
